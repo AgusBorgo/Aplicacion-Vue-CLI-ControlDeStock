@@ -3,7 +3,7 @@
     <div class="card">
       <div class="card-header">
         <header>
-          <h2>PRIMER PARCIAL</h2>
+          <h2>TRABAJO TRES</h2>
         </header>
       </div>
       <div class="card-body">

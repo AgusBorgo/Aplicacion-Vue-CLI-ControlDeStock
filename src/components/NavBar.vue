@@ -11,6 +11,7 @@
       <ul class="navbar-nav">
         <li class="nav-item">
           <RouterLink class="nav-link" to="/multipleChoise">Respuestas Choice</RouterLink>
+          <RouterLink class="nav-link" to="/formulario">Formulario</RouterLink>
         </li>
       </ul>
     </div>

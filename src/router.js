@@ -4,11 +4,13 @@ import {
 }from 'vue-router';
 
 import MultipleChoice from './components/MultipleChoice.vue';
+import Formulario from './components/Formulario.vue';
 
 const routes = [
     {path: '/', redirect: '/multipleChoice'},
 
     { path: '/multipleChoice', component: MultipleChoice },
+    { path: '/formulario', component: Formulario},
 
     {path: '/:pathMatch(.*)*', redirect: '/multipleChoice'},
 ]
