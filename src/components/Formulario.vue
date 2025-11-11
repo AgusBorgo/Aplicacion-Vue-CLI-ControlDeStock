@@ -122,17 +122,78 @@ export default {
 </script>
 
 <style scoped>
-.card-hearder {
-  background-color: rgb(20, 169, 35);
-  padding: 10px;
-  border-bottom: 1px solid #dee2e6;
+.card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+  overflow: hidden;
 }
+
+.card-header {
+  background-color: rgb(20, 169, 35);
+  padding: 1rem;
+  border-bottom: 1px solid #dee2e6;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.card-body {
+  background-color: #f8f9fa;
+  padding: 2rem;
+}
+
+form {
+  max-width: 600px;
+  margin: auto;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+input.form-control {
+  border-radius: 6px;
+  padding: 0.5rem 0.75rem;
+}
+
+button {
+  min-width: 150px;
+}
+
+.table {
+  margin-top: 2rem;
+}
+
 .table th {
   text-transform: uppercase;
   font-size: 12px;
+  background-color: #343a40;
+  color: #fff;
 }
+
+.table td {
+  vertical-align: middle;
+}
+
 label {
   text-transform: uppercase;
   font-size: 12px;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.alert {
+  font-size: 0.9rem;
+  padding: 0.5rem 0.75rem;
+  border-radius: 4px;
+}
+
+h4 {
+  margin-top: 2rem;
+  color: #6c757d;
+  font-style: italic;
+  text-align: center;
 }
 </style>

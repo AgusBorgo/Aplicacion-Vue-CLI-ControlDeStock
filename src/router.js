@@ -3,16 +3,16 @@ import {
     createWebHashHistory
 }from 'vue-router';
 
-import MultipleChoice from './components/MultipleChoice.vue';
+import MultipleChoice from './components/UsuariosApi.vue';
 import Formulario from './components/Formulario.vue';
 
 const routes = [
-    {path: '/', redirect: '/multipleChoice'},
+    {path: '/', redirect: '/UsuariosApi.vue'},
 
-    { path: '/multipleChoice', component: MultipleChoice },
+    { path: '/UsuariosApi.vue', component: MultipleChoice },
     { path: '/formulario', component: Formulario},
 
-    {path: '/:pathMatch(.*)*', redirect: '/multipleChoice'},
+    {path: '/:pathMatch(.*)*', redirect: '/UsuariosApi.vue'},
 ]
 
 const router = createRouter({
